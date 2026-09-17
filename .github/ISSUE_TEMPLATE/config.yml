@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论区（SIP 前置讨论）
+    url: https://github.com/TeFuirnever/numployee/discussions
+    about: 标准修订的想法先在 Discussions 聊成熟，再正式开 SIP
+  - name: 📖 规范正文
+    url: https://github.com/TeFuirnever/numployee/blob/main/SPEC.md
+    about: 提交前先读 SPEC，避免重复提案

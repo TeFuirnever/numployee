@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "如果你使用了 numployee 标准、模板或探针集，请按此引用。"
+type: software
+title: "numployee — 数字员工开放标准与工具包"
+abstract: "数字员工（digital employee）的开放标准与可移植工具包：判定四要素、五层参考架构、L1–L5 成熟度模型、人格三件套模板与 12 题行为探针集。"
+authors:
+  - name: "TeFuirnever"
+repository-code: "https://github.com/TeFuirnever/numployee"
+url: "https://github.com/TeFuirnever/numployee"
+license: "Apache-2.0"
+version: 0.1.0
+date-released: "2026-09-17"
+keywords:
+  - digital-employee
+  - agent-standard
+  - ai-agents
+  - llm
+  - specification
+  - prompt-engineering
+identifiers:
+  - type: url
+    value: "https://github.com/TeFuirnever/numployee/releases/tag/v0.1.0"
+    description: "v0.1.0 里程碑 release"
+# 许可说明：仓库采用双许可——文档/标准类资产为 CC BY-SA 4.0（见 LICENSE-docs），
+# 模板/代码类资产为 Apache-2.0（见 LICENSE）。CFF 单许可字段填软件侧 Apache-2.0。

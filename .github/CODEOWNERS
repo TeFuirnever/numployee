@@ -1,0 +1,5 @@
+# CODEOWNERS — numployee
+# 当前阶段：BDFL 单一所有者（见 GOVERNANCE.md）。
+# M3 治理升级（Maintainers 议会制）时在此追加维护者，格式：* @user1 @user2
+
+* @TeFuirnever

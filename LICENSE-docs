@@ -1,0 +1,26 @@
+# LICENSE-docs — 文档与标准类资产许可
+
+## 适用范围
+
+本许可证适用于本仓库内的**文档与标准类资产**，包括：
+
+- `SPEC.md`
+- `docs/` 目录下全部内容
+- 根目录 `README` 系列文件
+- `probes/probes.md` 及 `probes/README.md`
+
+代码类资产（`templates/`、`probes/suites/` 及仓库内其余代码）以根目录 `LICENSE`（Apache License 2.0）为准。
+
+## 许可：Creative Commons Attribution-ShareAlike 4.0 International（CC BY-SA 4.0）
+
+上述适用范围内的作品采用知识共享「署名—相同方式共享 4.0 国际」许可协议授权，许可要点：
+
+- **署名（Attribution）**：使用、复制、改编本作品时，必须给出适当的署名、提供许可协议链接，并说明是否做了修改。
+- **相同方式共享（ShareAlike）**：改编本作品后，必须以与本许可相同的条款分发您的贡献。
+- **无附加限制**：不得附加任何法律条款或技术手段，限制他人行使本许可协议允许的行为。
+
+## 完整法律文本
+
+完整法律文本见官方地址：https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+**以该 URL 的法律文本为准**；本文件仅为摘要性声明，不构成法律文本的替代。
