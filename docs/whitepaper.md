@@ -228,14 +228,14 @@
 28. 新京报. 2026 年 AI 数字员工行业趋势（援引 IDC 数据）. 2026-07. <https://m.bjnews.com.cn/detail/1783562552129855.html>
 29. Moogician. How We Broke Top AI Agent Benchmarks. 2026-04. <https://moogician.github.io/blog/2026/trustworthy-benchmarks-cont/>
 30. OpenAI. Practices for Governing Agentic AI Systems. 2023-12. <https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf>
-31. Zed Industries / JetBrains. Agent Client Protocol（ACP）——编辑器与编码代理对接的开放协议（JSON-RPC over stdio；OpenCode、Gemini CLI、Claude Agent 等均已实现）. 2025-06（ACP Registry 于 2026-03 发布）. <https://github.com/zed-industries/agent-client-protocol>
+31. Zed Industries / JetBrains. Agent Client Protocol（ACP）——编辑器与编码代理对接的开放协议（JSON-RPC over stdio；OpenCode、Gemini CLI、Claude Agent 等均已实现）. 2025-08-27 发布（ACP Registry 于 2026-01 上线）. <https://github.com/zed-industries/agent-client-protocol>
 32. Model Context Protocol. MCP joins the Agentic AI Foundation. 2025-12. <https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/>
-33. AGENTS.md Open Standard（Linux Foundation Agentic AI Foundation 托管）. <https://factory.com/news/agents-md>
-34. Google et al. Agent2Agent Protocol (A2A)，Linux Foundation 治理. 2026-03. <https://a2aproject.github.io/A2A/>；ACP 并入 A2A 公告 <https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/>
-35. Kai Greshake et al. InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents. ACL 2024 Findings. <https://aclanthology.org/2024.findings-acl.624/>
+33. AGENTS.md Open Standard（2025-12 起由 Linux Foundation Agentic AI Foundation 托管）. <https://factory.com/news/agents-md>；AAIF 成立与托管公告 <https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation>
+34. Google et al. Agent2Agent Protocol (A2A)，v1.0 于 2026-03 发布，2026-08 转入 Linux Foundation Agentic AI Foundation. <https://a2aproject.github.io/A2A/>；并入 A2A 的 "ACP" 为 IBM/BeeAI 的 Agent Communication Protocol（与第 31 条 Zed 的 Agent Client Protocol 同名不同物），公告 <https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/>
+35. Qiusi Zhan et al. InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents. ACL 2024 Findings. <https://aclanthology.org/2024.findings-acl.624/>
 36. Mrinank Sharma et al. Towards Understanding Sycophancy in Language Models. ICLR 2024. <https://openreview.net/forum?id=tvhaxkMKAn>
 37. OWASP. Top 10 for Large Language Model Applications（含 Agentic Top 10）. <https://owasp.org/www-project-top-10-for-large-language-model-applications/>；MITRE ATLAS. <https://atlas.mitre.org/>
 38. sema4.ai. The Five Levels of Agentic Automation. <https://sema4.ai/blog/the-five-levels-of-agentic-automation/>
-39. LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. <https://xiaowu0162.github.io/longmemeval-v2/>
+39. LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. ICLR 2025. <https://arxiv.org/abs/2410.10813>；面向 web agent 的 LongMemEval-V2（2026-05）见 <https://xiaowu0162.github.io/longmemeval-v2/>
 40. ISO/IEC 22989:2022. Information technology — Artificial intelligence — AI concepts and terminology. <https://www.iso.org/standard/74296.html>
-41. IEEE P3777. Standard for AI Agent Benchmarks and Performance Measurement（PAR 于 2025-12 获批）. <https://standards.ieee.org/ieee/3777/12350>
+41. IEEE P3777. Standard for Benchmarking and Performance Metrics of Artificial Intelligence (AI) Agents（PAR 于 2025-12-10 获批）. <https://standards.ieee.org/ieee/3777/12350>

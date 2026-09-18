@@ -4,6 +4,16 @@
 
 ## [Unreleased]
 
+### 勘误与流程（2026-09-18，深审后）
+
+- 附录 C 引用卫生修正（依据 reviews/2026-09-18-deep-audit 附录 A 的一手来源核验，SPEC 与白皮书同步）：InjecAgent 署名更正为 Qiusi Zhan et al.；消歧两个同名 ACP（并入 A2A 的是 IBM/BeeAI Agent Communication Protocol，Zed 的 Agent Client Protocol 独立存续）；Zed ACP 发布日期更正为 2025-08（ACP Registry 2026-01 上线）；IEEE P3777 改用官方题名；LongMemEval 标题与链接对齐 v1（ICLR 2025）并补 V2 链接；AGENTS.md 托管出处补 AAIF 官方公告
+- README 数字员工仓库规模注明检索口径与日期
+- 新增 SIP-0001（[sips/SIP-0001-m0-gap-closure.md](sips/SIP-0001-m0-gap-closure.md)，M0 兑现包：闭合承诺—兑现断链、模板分离原则修复、治理条款可执行化），流程首次实跑，编号于 review 时分配、经 BDFL 拍板状态合并流转至 implemented
+- SIP-0001 WP1–WP3 落地：12 题探针补 variant_of 变体注记与变体机制说明，probes/README 新增「回归 ≠ 审计」边界声明、统计功效声明与「防博弈设计」一节，新增 probes/private/ 私有保留集占位约定；AGENTS 三条红线圈入受管块（首个 numployee:managed 实例，SPEC 5.6 落地），SOUL 边界三小节迁往 AGENTS（SOUL 只留表达层边界，修复人格/纪律双写），新增 capabilities/CAPABILITIES.template.md（修复 L3 声明式能力清单断档与 AGENTS 头部悬空引用），BOOTSTRAP 补完成标记、AGENTS Session Startup 补触发链；EVIDENCE 证据包补 evidence-sha256 防篡改清单与双评审留痕字段（含 kappa 口径说明），checklist 明示「必要条件子集」属性、声明格式以 SPEC 第 8 章为唯一基准（本清单字段为推荐扩展）
+- SIP-0001 WP4–WP5 落地（所有者拍板，与该 SIP review 合并追认）：T6 拆分为 T6a（会话内）+ T6b（跨会话一致性，L4，承接 SPEC 4.4），P4/P5 判定操作化补强（反对意见须含具体理由；立场/语气三档参照量表），记分规则补基线跨版本语义；GOVERNANCE 新增现阶段投票为咨询性质声明、创始维护者任命程序、BDFL 失联兜底、M3 可判定启动条件、实现名录与失实声明移除机制；CONTRIBUTING 双评审条款改为外部评审可担任（单人阶段可执行）。SECURITY/COC 的占位邮箱处理当时待定
+- 联系渠道改为无邮箱方案（所有者拍板）：SECURITY.md 披露改走 GitHub 私下漏洞报告（Security Advisories），CODE_OF_CONDUCT.md 举报改走 Issue / 直接联系维护者 @TeFuirnever，GOVERNANCE 发布前核对项由「邮箱占位符」改写为「联系渠道可用性」，SIP-0001 遗留项清零
+- 独立深度审视报告归档 reviews/2026-09-18-deep-audit/
+
 ### 定位（2026-09-17，所有者拍板）
 
 - 明确为**研究性项目**：追求概念框架的学术严谨与同行评议，不以产业采用率为验收

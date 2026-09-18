@@ -36,7 +36,7 @@
 
 ## 执行
 
-如遇滥用、骚扰或其他不可接受行为，可通过邮件 **maintainer@example.com** 联系维护团队（**占位邮箱，仓库正式发布前必须替换为真实邮箱**）。所有投诉将得到及时、公正的审查与调查。
+如遇滥用、骚扰或其他不可接受行为，可在本仓库开 Issue 报告，或直接联系项目维护者（GitHub：**@TeFuirnever**，见 `.github/CODEOWNERS`）；涉及隐私的敏感事件可使用 GitHub 的「Report content / Report abuse」功能提交。所有投诉将得到及时、公正的审查与调查。
 
 所有维护者都有义务尊重事件报告者的隐私与安全。
 
@@ -86,4 +86,4 @@
 
 ## English Summary
 
-This project adopts the Contributor Covenant v2.1 as its code of conduct. We pledge to make participation harassment-free for everyone, and we outline expected behavior, unacceptable behavior, enforcement responsibilities, scope, and a four-tier enforcement ladder (correction, warning, temporary ban, permanent ban). Reports go to **maintainer@example.com** (placeholder — replace before public release). Maintainers who fail to enforce the code may face removal.
+This project adopts the Contributor Covenant v2.1 as its code of conduct. We pledge to make participation harassment-free for everyone, and we outline expected behavior, unacceptable behavior, enforcement responsibilities, scope, and a four-tier enforcement ladder (correction, warning, temporary ban, permanent ban). Reports go to the repository's Issue tracker or directly to the maintainer (GitHub: **@TeFuirnever**); sensitive reports may use GitHub's "Report content" feature. Maintainers who fail to enforce the code may face removal.
