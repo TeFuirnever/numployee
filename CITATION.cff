@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "如果你使用了 numployee 标准、模板或探针集，请按此引用。"
 type: software
 title: "numployee — 数字员工开放标准与工具包"
-abstract: "数字员工（digital employee）的开放标准与可移植工具包：判定四要素、五层参考架构、L1–L5 成熟度模型、人格三件套模板与 12 题行为探针集。"
+abstract: "数字员工（digital employee）的开放标准与可移植工具包：判定四要素、五层参考架构、L1–L5 成熟度模型、人格三件套模板与 13 题行为探针集。"
 authors:
   - name: "TeFuirnever"
 repository-code: "https://github.com/TeFuirnever/numployee"

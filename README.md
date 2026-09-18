@@ -39,12 +39,14 @@ L1–L5 是数字员工的成熟度模型（能力 × 治理 × 评测联合门�
 | 路径 | 一句话 |
 | --- | --- |
 | [SPEC.md](SPEC.md) | 标准正文（草案）：定义、四要素、五层参考架构、L1–L5 成熟度模型、可移植性/安全/评测标准 |
-| [docs/](docs/) | 用户文档：beginner（科普与速览）、runbooks（rb01–rb08 排障手册）、playbooks（L3–L5 进阶玩法与配方） |
+| [docs/](docs/README.md) | 用户文档：白皮书、beginner（科普与速览）、runbooks（rb01–rb08 排障手册）、playbooks（L3–L5 进阶玩法与配方） |
 | [templates/](templates/README.md) | 可移植资产：人格三件套空白模板 + 注释规范 + 装配检查清单 |
 | [probes/](probes/README.md) | 行为探针集：13 题清单 + 记分规则 + 按成熟度等级划分的探针子集 |
-| [implementations/](implementations/openclaw/MAPPING.md) | 参考实现映射：标准条目 ↔ OpenClaw 开源机制的对照与验证；另含一个闭源桌面产品的匿名案例研究（作者自述、未经独立验证） |
+| [implementations/](implementations/README.md) | 实现名录（研究案例登记）：OpenClaw 开源映射 + 匿名闭源案例研究（作者自述、未经独立验证） |
 | [slides/](slides/index.html) | 16 页自包含 HTML 演示稿（深色终端风，断网可放映，←→ 翻页） |
-| [sips/](sips/) | SIP（Standard Improvement Proposal）：标准修订提案，一提案一文件 |
+| [sips/](sips/README.md) | SIP（Standard Improvement Proposal）：标准修订提案，一提案一文件 |
+| [reviews/](reviews/2026-09-18-deep-audit/ANALYSIS.md) | 评审档案：rc1 三方互盲评审 + 2026-09-18 独立深审 |
+| `mkdocs.yml` + [scripts/build-pages.py](scripts/build-pages.py) | GitHub Pages 文档站管线（推 main 自动部署，PR 上 strict 构建门控） |
 
 ## 🧩 生态位：我们不做什么
 

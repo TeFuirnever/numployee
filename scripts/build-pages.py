@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DST = ROOT / "pages" / "content"
 
 EXCLUDE_DIRS = {".git", "site", "pages", "node_modules", ".cache", "__pycache__"}
-EXCLUDE_ROOT_FILES = {"mkdocs.yml", "requirements-pages.txt"}
+EXCLUDE_ROOT_FILES = {"mkdocs.yml", "requirements-pages.txt", "AGENTS.md", "CLAUDE.md"}
 
 
 def main() -> None:

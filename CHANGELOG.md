@@ -14,6 +14,7 @@
 - 联系渠道改为无邮箱方案（所有者拍板）：SECURITY.md 披露改走 GitHub 私下漏洞报告（Security Advisories），CODE_OF_CONDUCT.md 举报改走 Issue / 直接联系维护者 @TeFuirnever，GOVERNANCE 发布前核对项由「邮箱占位符」改写为「联系渠道可用性」，SIP-0001 遗留项清零
 - 独立深度审视报告归档 reviews/2026-09-18-deep-audit/
 - GitHub Pages 文档站（已上线：<https://tefuirnever.github.io/numployee/>）：mkdocs.yml（Material 主题、深浅色切换、中文搜索 jieba 分词、Mermaid 渲染、显式收回 MkDocs 对顶层 templates/ 的默认排除），scripts/build-pages.py 内容装配（MkDocs 要求 docs_dir 为配置子目录），docs/、probes/suites/、implementations/ 等 5 个目录补 README 导览页（目录链接在站点与 GitHub 双侧可达）；CI 双工作流：pages.yml 推 main 即构建部署，verify.yml 在 PR/main 上以 mkdocs build --strict 门控
+- 收尾对齐：新建 AGENTS.md（站点管线规则与文档纪律）；README 仓库导览补 reviews/ 与站点管线两行，docs/、implementations/、sips/ 行改指各自导览页；CITATION.cff 探针数 12→13；CONTRIBUTING 补站点 strict 门控说明
 
 ### 定位（2026-09-17，所有者拍板）
 

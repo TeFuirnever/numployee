@@ -42,6 +42,8 @@
 3. 向 `main` 发起 Pull Request，描述改动动机与影响面（涉及 SPEC 的改动须先有关联 SIP）。
 4. 至少一名维护者评审通过后合并；标准类变更需按 `GOVERNANCE.md` 的决策分级执行。
 
+> 站点门控：PR 会触发 `mkdocs build --strict`（`.github/workflows/verify.yml`）。新增、删除或重命名 Markdown 文件须同步登记 `mkdocs.yml` 的 nav，否则构建变红。本地复现：`python3 scripts/build-pages.py && mkdocs build --strict`（依赖见 `requirements-pages.txt`）。
+
 ## English Summary
 
 This repository welcomes contributions in five areas: standard revisions via SIPs, new implementation mappings, probe contributions, template improvements, and translations. Probes must be objectively judgeable and must not include reusable jailbreak or prompt-injection details; they require two maintainer reviews. All contributors must follow `CODE_OF_CONDUCT.md`. We use Conventional Commits and a fork-and-branch PR workflow reviewed by maintainers.
