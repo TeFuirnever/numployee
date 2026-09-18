@@ -8,6 +8,7 @@
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0%20%2B%20Apache--2.0-blue)
 ![Status](https://img.shields.io/badge/status-M0%20%E4%BB%93%E7%B3%BB%E5%BB%BA%E5%9F%BA-yellow)
+[![文档站](https://img.shields.io/badge/%E6%96%87%E6%A1%A3%E7%AB%99-GitHub%20Pages-green)](https://tefuirnever.github.io/numployee/)
 
 一句话定位：**别人定义 agent 怎么跑（harness、协议、编排框架），我们定义数字员工凭什么算"合格上岗"**——持久身份、可装配能力、可治理红线、可沉淀知识，以及衡量这一切的行为探针。
 
