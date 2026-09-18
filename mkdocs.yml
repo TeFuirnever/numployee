@@ -87,6 +87,9 @@ nav:
       - L4 子集: probes/suites/l4.md
       - L5 子集: probes/suites/l5.md
     - 私有保留集约定: probes/private/README.md
+    - 一致率研究（2026-09）:
+      - 先导研究报告: probes/irr-2026-09/STUDY.md
+      - 构造语料: probes/irr-2026-09/corpus.md
   - 模板:
     - 模板总览: templates/README.md
     - SOUL 人格: templates/soul/SOUL.template.md
