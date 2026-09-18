@@ -1,8 +1,8 @@
 # 数字员工规范（Digital Employee Specification）
 
-- **Status**: Draft v1.0-rc2
+- **Status**: Draft v1.0-rc3
 - **项目品牌**: numployee（num(数字) + em(ployee)(员工) 的拼合词）
-- **日期**: 2026 年 9 月 17 日
+- **日期**: 2026 年 9 月 18 日
 - **修订流程**: 本规范的演进通过 SIP（Specification Improvement Proposal）管理，流程与模板见 [sips/README.md](sips/README.md)。
 - **配套资源**: 按标准装配员工见 [templates/](templates/)；行为探针与考核集见 [probes/](probes/)；参考实现见 [implementations/](implementations/)。
 - **完整论述**: 本规范的理论背景、推理过程与全部学术引用见 [docs/whitepaper.md](docs/whitepaper.md)。
@@ -203,7 +203,7 @@
 
 ## 8. 合规声明
 
-实现可声明"符合《数字员工规范》Draft v1.0-rc2"，声明按成熟度层级给出（如"单员工 L3"；协作维度及其门槛待 SIP 定义）。声明必须附证据：
+实现可声明"符合《数字员工规范》Draft v1.0-rc3"，声明按成熟度层级给出（如"单员工 L3"；协作维度及其门槛待 SIP 定义）。声明必须附证据：
 
 - 逐项对照 [templates/conformance-checklist.md](templates/conformance-checklist.md) 的自评结果；
 - 与所声明层级对应的回归集运行记录（任务集 + 探针集）；
@@ -213,7 +213,7 @@
 
 声明格式示例：
 
-> 实现声明符合《数字员工规范》Draft v1.0-rc2 之"单员工 L3"。
+> 实现声明符合《数字员工规范》Draft v1.0-rc3 之"单员工 L3"。
 > 自评对照：templates/conformance-checklist.md；回归集运行记录：<链接>；证据可复跑入口：<链接>
 
 声明不得超出已验证层级。任何 L5 声明必须额外提供组织级权限模型与协作消息级安全检查的实现证据。证据缺失或拒绝公开自检结果的声明视为无效。
@@ -297,3 +297,20 @@
 39. LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. ICLR 2025. <https://arxiv.org/abs/2410.10813>；面向 web agent 的 LongMemEval-V2（2026-05）见 <https://xiaowu0162.github.io/longmemeval-v2/>
 40. ISO/IEC 22989:2022. Information technology — Artificial intelligence — AI concepts and terminology. <https://www.iso.org/standard/74296.html>
 41. IEEE P3777. Standard for Benchmarking and Performance Metrics of Artificial Intelligence (AI) Agents（PAR 于 2025-12-10 获批）. <https://standards.ieee.org/ieee/3777/12350>
+
+## 附录 D：术语与符号注册表
+
+本附录是全仓术语与符号的**单源注册表**：登记唯一基准含义、基准出处与已归一的误用。本附录为登记性条款，不改变任何规范性条款的含义；其他文档与本表冲突时，以本表及所引基准出处为准。
+
+| 符号 / 术语 | 唯一基准含义 | 基准出处 | 常见误用（已归一） |
+| --- | --- | --- | --- |
+| **L1–L5** | 数字员工成熟度等级（能力 × 治理 × 评测联合门槛） | 第 4 章 | playbooks 曾复用为「用户段位」——用户段位现改称 U1–U5，与员工成熟度是两套刻度 |
+| **U1–U5** | 用户段位（U1 小白 → U5 极客·布道者），描述使用者而非员工 | docs/playbooks/advanced-playbooks.md | 不得用 L1–L5 表达用户段位 |
+| **多员工协作**（多智能体协作） | L5 能力要求 | 4.5 | README 与 slides 曾分别落入 L4、L3，已归位 L5 |
+| **P5** | 行为探针第五题「人格表达生效」 | [probes/probes.md](probes/probes.md) | 曾名「SOUL 标记重命名」（产品 canary 残留描述），已归一 |
+| **SOUL 七维** | 诚实且温暖 / 温和但有立场 / 培养独立 / 察言观色 / 主动伙伴 / 自然表达 / 边界感 | [templates/soul/SOUL.template.md](templates/soul/SOUL.template.md) | beginner 文档曾漏「边界感」只列六维，已补齐 |
+| **员工市场** | 员工 / 角色模板的分发渠道 | [docs/runbooks/rb06-market.md](docs/runbooks/rb06-market.md) | 曾又名「人才市场」，统一为「员工市场」 |
+| **SKILL 市场** | 技能（Skill）的分发渠道，与员工市场是并列的两条渠道 | [docs/runbooks/rb02-install-skills.md](docs/runbooks/rb02-install-skills.md) | — |
+| **Bastion** | 参考案例中的安全层组件名（消息级安全检查） | [implementations/case-study/](implementations/case-study/) | 曾写「安全中心」，已归一 |
+| **ACP** | 本仓专指 Zed / JetBrains 的 Agent Client Protocol | 附录 C 第 31 条 | IBM/BeeAI 的 Agent Communication Protocol 与之同名不同物，引用时必须用全称（见附录 C 第 34 条） |
+| **身份 / 状态** | 身份跨会话可恢复；状态不跨会话持有 | 2.3 | — |

@@ -13,12 +13,12 @@
 | 角色模板（Role） | 招聘 JD / 岗位说明书——只定义不干活，必须实例化成员工才能对话 |
 | Agent | 公司分给员工的独立办公室（隔离执行单元，有独立 workspace 和 agentDir），是载体不是对话目标 |
 | harness（载体/运行时） | 公司提供的雇佣体系和办公环境：身体、办公系统、考勤、工具调度、记忆机制 |
-| `SOUL.md` | 性格与价值观：人格、语气、边界、信任模型（诚实且温暖、温和但有立场） |
+| `SOUL.md` | 性格与价值观：人格、语气、边界、信任模型（七维：诚实且温暖、温和但有立场等，全表见模板） |
 | `AGENTS.md` | 岗位手册 + 员工守则 + 安全红线（Red Lines）；子代理只继承它和 `TOOLS.md` |
 | `TOOLS.md` | 工具台账与环境笔记：本地 MCP/环境事实与配置链提示 |
 | Team | 班组/项目组：多个员工并行或流水线协作，session 完全隔离，V1 无 leader |
 | Code Mode | 外聘专家模式：员工由 ACP 编码代理（codeagent/opencode）承载，与默认模型互斥 |
-| 市场 | 人才市场：下载别人培养好的角色模板（source = market），或发布自己的（source = user / builtin） |
+| 市场 | 员工市场：下载别人培养好的角色模板（source = market），或发布自己的（source = user / builtin） |
 | Bastion | 安保处：员工的每条消息做消息级安全检查后才放行 |
 | Gateway | 能力层：员工可调用的工具与能力统一从这里出去 |
 | Usage 条目 | 员工的可安装能力清单，分 openclaw 条目（默认模型）和 codeagent 条目（Code Mode）两组 |
