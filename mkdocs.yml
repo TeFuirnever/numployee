@@ -104,6 +104,7 @@ nav:
     - SIP-0001 M0 兑现包: sips/SIP-0001-m0-gap-closure.md
     - SIP-0002 L5 探针子集: sips/SIP-0002-l5-probes.md
     - SIP-0003 IRR 跟进: sips/SIP-0003-irr-followup.md
+    - SIP-0004 v1.0 收官包: sips/SIP-0004-v1-0-closing.md
     - SIP 模板: sips/sip-template.md
   - 实现案例:
     - 实现名录总览: implementations/README.md
