@@ -105,6 +105,7 @@ nav:
     - OpenClaw:
       - 说明: implementations/openclaw/README.md
       - 映射表: implementations/openclaw/MAPPING.md
+    - Claude Code 纸面映射: implementations/claude-code/MAPPING.md
     - 匿名案例研究:
       - 说明: implementations/case-study/README.md
       - 映射表: implementations/case-study/MAPPING.md
