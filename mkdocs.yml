@@ -1,0 +1,126 @@
+site_name: numployee — 数字员工开放标准
+site_description: 数字员工的开放标准、探针考核与工具包（规范 / 白皮书 / 探针 / 模板 / SIP）
+site_url: https://tefuirnever.github.io/numployee/
+repo_url: https://github.com/TeFuirnever/numployee
+docs_dir: pages/content
+site_dir: site
+
+# MkDocs 默认把顶层 /templates/ 当作主题模板目录整体排除（structure/files.py 的
+# _default_exclude）。本仓的 templates/ 是内容目录，用否定规则显式收回。
+exclude_docs: |
+  !/templates/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - 首页: README.md
+  - 文档导览: docs/README.md
+  - 标准:
+    - SPEC 规范全文: SPEC.md
+    - 合规检查清单: templates/conformance-checklist.md
+  - 白皮书: docs/whitepaper.md
+  - 新手入门:
+    - 什么是数字员工: docs/beginner/what-is-digital-employee.md
+    - 速览: docs/beginner/quick-reference.md
+  - Runbooks 上岗手册:
+    - rb01 创建第一个员工: docs/runbooks/rb01-create-first-employee.md
+    - rb02 安装技能: docs/runbooks/rb02-install-skills.md
+    - rb03 高效对话: docs/runbooks/rb03-talk-effectively.md
+    - rb04 管理团队: docs/runbooks/rb04-run-a-team.md
+    - rb05 代码模式: docs/runbooks/rb05-code-mode.md
+    - rb06 员工市场: docs/runbooks/rb06-market.md
+    - rb07 定制人格: docs/runbooks/rb07-customize-persona.md
+    - rb08 故障排查: docs/runbooks/rb08-troubleshooting.md
+  - 进阶玩法:
+    - 进阶手册: docs/playbooks/advanced-playbooks.md
+    - 人格配方: docs/playbooks/recipes/persona-recipes.md
+    - SOP 与探针: docs/playbooks/recipes/sop-and-probes.md
+  - 探针考核:
+    - 探针集说明: probes/README.md
+    - 题目与判定标准: probes/probes.md
+    - 证据留存规范: probes/EVIDENCE.md
+    - 跑测子集:
+      - 子集总览: probes/suites/README.md
+      - L1-L2 子集: probes/suites/l1-l2.md
+      - L3 子集: probes/suites/l3.md
+      - L4 子集: probes/suites/l4.md
+      - L5 子集: probes/suites/l5.md
+    - 私有保留集约定: probes/private/README.md
+  - 模板:
+    - 模板总览: templates/README.md
+    - SOUL 人格: templates/soul/SOUL.template.md
+    - AGENTS 纪律: templates/agents/AGENTS.template.md
+    - CAPABILITIES 能力: templates/capabilities/CAPABILITIES.template.md
+    - TOOLS 工具: templates/tools/TOOLS.template.md
+    - IDENTITY 身份: templates/identity/IDENTITY.template.md
+    - USER 用户: templates/user/USER.template.md
+    - BOOTSTRAP 引导: templates/bootstrap/BOOTSTRAP.template.md
+  - 标准改进 SIP:
+    - SIP 流程: sips/README.md
+    - SIP-0001 M0 兑现包: sips/SIP-0001-m0-gap-closure.md
+    - SIP 模板: sips/sip-template.md
+  - 实现案例:
+    - 实现名录总览: implementations/README.md
+    - OpenClaw:
+      - 说明: implementations/openclaw/README.md
+      - 映射表: implementations/openclaw/MAPPING.md
+    - 匿名案例研究:
+      - 说明: implementations/case-study/README.md
+      - 映射表: implementations/case-study/MAPPING.md
+      - wiki 设计: implementations/case-study/wiki-design.md
+  - 同行评审:
+    - rc1 评审（2026-09-17）:
+      - 综合报告: reviews/2026-09-17-rc1/SYNTHESIS.md
+      - R1 技术健全性: reviews/2026-09-17-rc1/R1-technical-soundness.md
+      - R2 相关工作与原创性: reviews/2026-09-17-rc1/R2-related-work-originality.md
+      - R3 可操作性: reviews/2026-09-17-rc1/R3-operability.md
+      - 参考文献核验 1-16: reviews/2026-09-17-rc1/REFS-1-16-verification.md
+      - 参考文献核验 17-31: reviews/2026-09-17-rc1/REFS-17-31-verification.md
+    - 独立深审（2026-09-18）: reviews/2026-09-18-deep-audit/ANALYSIS.md
+  - 治理:
+    - 治理模型: GOVERNANCE.md
+    - 贡献指南: CONTRIBUTING.md
+    - 行为准则: CODE_OF_CONDUCT.md
+    - 安全说明: SECURITY.md
+    - 更新日志: CHANGELOG.md
