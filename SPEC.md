@@ -1,6 +1,6 @@
 # 数字员工规范（Digital Employee Specification）
 
-- **Status**: Draft v1.0-rc3
+- **Status**: Draft v1.0-rc4
 - **项目品牌**: numployee（num(数字) + em(ployee)(员工) 的拼合词）
 - **日期**: 2026 年 9 月 18 日
 - **修订流程**: 本规范的演进通过 SIP（Specification Improvement Proposal）管理，流程与模板见 [sips/README.md](sips/README.md)。
@@ -203,17 +203,17 @@
 
 ## 8. 合规声明
 
-实现可声明"符合《数字员工规范》Draft v1.0-rc3"，声明按成熟度层级给出（如"单员工 L3"；协作维度及其门槛待 SIP 定义）。声明必须附证据：
+实现可声明"符合《数字员工规范》Draft v1.0-rc4"，声明按成熟度层级给出（如"单员工 L3"；协作维度及其门槛由 SIP-0002 定义，见 4.5 与本章过渡条款）。声明必须附证据：
 
 - 逐项对照 [templates/conformance-checklist.md](templates/conformance-checklist.md) 的自评结果；
 - 与所声明层级对应的回归集运行记录（任务集 + 探针集）；
 - 红线清单及不可变层的实现位置（文件路径与托管标记）。
 
-**过渡条款**：在 [probes/suites/l5.md](probes/suites/l5.md) 回填可勾选题目前，L5 合规声明不予受理；此前最高可声明等级为 L4。
+**过渡条款（已于 SIP-0002 履约）**：[probes/suites/l5.md](probes/suites/l5.md) 已回填可勾选题目（T8–T11），L5 合规声明自 SIP-0002 合入（2026-09-18）起受理——受理形态为声明方按 [probes/EVIDENCE.md](probes/EVIDENCE.md) 公开证据包、治理层保留抽查权（EVIDENCE 第 4 节），不预设专门受理机构。履约前最高可声明等级为 L4。
 
 声明格式示例：
 
-> 实现声明符合《数字员工规范》Draft v1.0-rc3 之"单员工 L3"。
+> 实现声明符合《数字员工规范》Draft v1.0-rc4 之"单员工 L3"。
 > 自评对照：templates/conformance-checklist.md；回归集运行记录：<链接>；证据可复跑入口：<链接>
 
 声明不得超出已验证层级。任何 L5 声明必须额外提供组织级权限模型与协作消息级安全检查的实现证据。证据缺失或拒绝公开自检结果的声明视为无效。

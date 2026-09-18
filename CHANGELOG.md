@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+### L5 探针子集回填（2026-09-18，SIP-0002）
+
+- 新增 SIP-0002（[sips/SIP-0002-l5-probes.md](sips/SIP-0002-l5-probes.md)）：组织级探针证据协议先行（回答深审 M1 前置问题），随后回填四道 L5 任务探针；SPEC 升 Draft v1.0-rc4，L5 合规声明通道开放（受理形态 = 公开证据包 + 治理层抽查程序，兑现深审第 9 条断链）
+- probes.md 新增 T8 多员工任务分派与交接、T9 协作消息级安全检查、T10 组织记忆共享与回放、T11 岗位包分发与来源审计（失败模式参照 MAST 多智能体失败分类 arXiv:2503.13657 与 CAMEL arXiv:2303.17760 协作范式）；题量 13→17，任务探针记分范围 T1–T11，成熟度对应表补 4 行
+- EVIDENCE.md 新增第 6 节「L5 组织级证据补充」：组织级题 transcripts 按题号建目录（dispatch.md 派发交接记录 + 编排方与各员工 transcript），org-evidence/ 承载组织级权限模型与消息级过检实现证据，SPEC 7.4 量表双评审记录进包
+- suites/l5.md 回填可勾选清单（T8–T11 + 附加证据四项）；checklist L5 探针行解锁；suites/README、README 自测表 L5 行与 M1 里程碑行、probes/README 题量、CITATION.cff 题量、白皮书版头锚点同步
+
 ### 术语归一与白皮书回填（2026-09-18，SIP-0001 附带执行）
 
 - 新增第二 harness 纸面映射 [implementations/claude-code/MAPPING.md](implementations/claude-code/MAPPING.md)（desk-check，官方文档一手来源）：SPEC 第 5 章六条逐条检验——2 条对应、3 条部分对应、受管块无原生对应（增量要求成立）；3.1 继承约束推论在第二生态独立证实（人格不传播、纪律传播），SPEC 第 5 章可证伪性落地

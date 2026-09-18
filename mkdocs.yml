@@ -99,6 +99,7 @@ nav:
   - 标准改进 SIP:
     - SIP 流程: sips/README.md
     - SIP-0001 M0 兑现包: sips/SIP-0001-m0-gap-closure.md
+    - SIP-0002 L5 探针子集: sips/SIP-0002-l5-probes.md
     - SIP 模板: sips/sip-template.md
   - 实现案例:
     - 实现名录总览: implementations/README.md
