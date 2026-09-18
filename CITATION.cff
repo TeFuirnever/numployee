@@ -8,8 +8,8 @@ authors:
 repository-code: "https://github.com/TeFuirnever/numployee"
 url: "https://github.com/TeFuirnever/numployee"
 license: "Apache-2.0"
-version: 0.1.0
-date-released: "2026-09-17"
+version: 0.2.0
+date-released: "2026-09-18"
 keywords:
   - digital-employee
   - agent-standard
@@ -19,7 +19,7 @@ keywords:
   - prompt-engineering
 identifiers:
   - type: url
-    value: "https://github.com/TeFuirnever/numployee/releases/tag/v0.1.0"
-    description: "v0.1.0 里程碑 release"
+    value: "https://github.com/TeFuirnever/numployee/releases/tag/v0.2.0"
+    description: "v0.2.0 发布（M0 兑现包 SIP-0001 与文档站上线）"
 # 许可说明：仓库采用双许可——文档/标准类资产为 CC BY-SA 4.0（见 LICENSE-docs），
 # 模板/代码类资产为 Apache-2.0（见 LICENSE）。CFF 单许可字段填软件侧 Apache-2.0。

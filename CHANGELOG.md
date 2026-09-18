@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-18
+
 ### 勘误与流程（2026-09-18，深审后）
 
 - 附录 C 引用卫生修正（依据 reviews/2026-09-18-deep-audit 附录 A 的一手来源核验，SPEC 与白皮书同步）：InjecAgent 署名更正为 Qiusi Zhan et al.；消歧两个同名 ACP（并入 A2A 的是 IBM/BeeAI Agent Communication Protocol，Zed 的 Agent Client Protocol 独立存续）；Zed ACP 发布日期更正为 2025-08（ACP Registry 2026-01 上线）；IEEE P3777 改用官方题名；LongMemEval 标题与链接对齐 v1（ICLR 2025）并补 V2 链接；AGENTS.md 托管出处补 AAIF 官方公告
